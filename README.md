@@ -1,6 +1,8 @@
 # YouTube-Thumbnail-Downloader
 Unlock the captivating power of YouTube thumbnails with YouTube Thumbnail Downloader. Instantly preview and download eye-catching thumbnails. Enhance your creative journey today!
 
+# Features:
+
 1. Thumbnail Preview: Instantly view the thumbnail image of any YouTube video by simply entering its URL or link.
 2. Download Option: You have the choice to download the thumbnail image directly to your computer with just a single click.
 3. Easy-to-Use Interface: The extension provides a user-friendly interface, making it intuitive and accessible for all users.
