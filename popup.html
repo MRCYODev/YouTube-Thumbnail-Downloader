@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Thumbnail Downloader</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <h1>YouTube Thumbnail Downloader</h1>
+  <div>
+    <input type="text" id="video-link" placeholder="Paste YouTube Video Link">
+  </div>
+  <div id="thumbnail-container">
+    <a id="thumbnail-link" target="_blank" rel="noopener noreferrer">
+      <img id="thumbnail-preview">
+    </a>
+  </div>
+  <div>
+    <label for="resolution-select">Resolution:</label>
+    <select id="resolution-select">
+      <option value="maxresdefault">Max Resolution (Recommend)</option>
+      <option value="hqdefault">High Quality</option>
+      <option value="mqdefault">Medium Quality</option>
+      <option value="sddefault">Standard Definition</option>
+      <option value="default">Default</option>
+    </select>
+  </div>
+  <div class="button-container">
+    <button id="preview-button" class="button button-secondary"><i class="fa-solid fa-eye"></i> Open Preview</button>
+    <button id="download-button" disabled class="button button-primary"><i class="fa-solid fa-download"></i> Download Thumbnail</button>
+  </div>  
+  <script src="popup.js"></script>
+  <script src="bubbly-button.js"></script>
+</body>
+</html>
